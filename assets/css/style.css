@@ -12,7 +12,38 @@ html {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    color: white;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+img {
+    width: auto;
+    height: auto;
+    box-sizing:border-box;
+    vertical-align: middle;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+    margin: 0px 0px 10px;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    margin: 0px 0px 20px;
+    line-height: normal;
+    font-weight: bold;
+    font-style: normal;
 }
 
 .banner {
@@ -37,7 +68,8 @@ body {
     font-size: 110%;
     font-weight: bold;
     list-style-type: none;
-    margin-right: 70px;
+    display: flex;
+    justify-content:space-evenly;
 }
 
 #logo-top, .menu {
@@ -46,10 +78,13 @@ body {
 
 .menu li {
     font-size: 15px;
-    text-align: right;
-    display: inline;
     text-transform: uppercase;
-    margin: 50px;
+    margin: 40px;
+}
+
+.banner, .menu ul li {
+    display: inline-block;
+    padding: 0px 27px;
 }
 
 .menu a {
@@ -80,6 +115,55 @@ body {
     left: 50px;
 }
 
+.btn_main {
+    background: #fff0;
+    padding: 7px 52px;
+    display: inline-block;
+    color: #fff;
+    transition: .4s ease;
+    font-size: 14px;
+    font-weight: bold;
+    border: 1px solid #ffffff;
+    border-radius: 11px;
+}
+
+.button_main {
+    color: #333;
+    font-weight: normal;
+    border-color: #333334;
+    padding: 10px 20px;
+    line-height: normal;
+}
+
+.btn_main:hover {
+    color: #2B2B2B;
+    background-color: #fff;
+}
+
+.banner_section .left_content {
+    max-width: 410px;
+    position: relative;
+}
+
+.banner_section .left_content h1 {
+    font-size: 40px;
+    line-height: 48px;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+.banner_section .left_content p {
+    margin-bottom: 24px;
+    color: #fff;
+    font-size: 11px;
+    line-height: 19px;
+}
+
+.banner_section .left_content .btn_banner {
+    text-align: center;
+}
+
+/*
 #banner-text p {
     font-family: 'Montserrat';
     width: auto;
@@ -97,5 +181,12 @@ body {
     border-radius: 20%;
     border-color: white;
     border-width: thin;
+    text-decoration: none;
+    color: inherit;
+    font-size: 110%;
+    font-weight: bold;
+    list-style-type: none;
+    display: flex;
 }
+*/
 /*ou'll want to give the text a div of its own with a width and maybe a different style. for the navbar, display: flex and justify-content: space-between could help*/
