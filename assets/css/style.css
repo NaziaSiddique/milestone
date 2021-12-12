@@ -23,7 +23,7 @@ body {
 img {
     width: auto;
     height: auto;
-    box-sizing:border-box;
+    box-sizing: border-box;
     vertical-align: middle;
 }
 
@@ -100,11 +100,11 @@ a {
 
 .container{
     width: 100%;
-    max-width:1180px;
+    max-width: 1180px;
     padding: 0px 15px;
-    margin:0px auto 0px; 
+    margin: 0px auto 0px; 
 }
-.container:after{
+.container:after {
     clear: both;
     display: table;
     content: "";
@@ -144,7 +144,7 @@ a {
     border-bottom: 2px solid #fff;
 }
 
-.header_main .menu_area ul li a:hover{
+.header_main .menu_area ul li a:hover {
     border-bottom: 2px solid #fff;
 }
 
@@ -161,7 +161,7 @@ a {
     transition: all .3s;
 }
 
-.header_main.fixed-header {
+.header_main .fixed-header {
     position: fixed;
     z-index: 99;
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
@@ -177,12 +177,12 @@ a {
     justify-content: space-between;
 }
 
-.header_main.fixed-header .left_logo img {
+.header_main .fixed-header .left_logo img {
     width: auto;
     max-width: 158px;
 }
 
-.header_main .menu_area ul li.active.pull-right .btn_main {
+.header_main .menu_area ul li .active .pull-right .btn_main {
     padding: 7px 20px;
     background: #1d2860;
     color: #fff;
@@ -604,7 +604,7 @@ h2 .title {
     padding: 50px 0px;
 }
 
-.main_heading_section {
+.main_hedding_section {
     font-size: 30px;
     line-height: 1.3;
     text-align: center;
@@ -638,13 +638,59 @@ h2 .title {
     list-style: square;
     line-height: 30px;
 }
+
 .service_images_section {
     margin:50px auto;
 }
+
 .service_images_section img {
     height: auto;
     max-width: 100%;
     max-height: 130px;
     width: auto;
     padding: 0 20px;
+}
+
+.contact-us-inner {
+    background: url(../images/contact-us.jpg) center center no-repeat;
+}
+
+.touch_inner_top_section {
+    padding: 40px 0px;
+}
+
+.touch_inner_top_section h2 .title {
+    text-align: center;
+}
+
+.touch_inner_top_section span {
+    text-align: center;
+    display: block;
+}
+
+.touch_inner_top_section span a {
+    color: #000;
+}
+
+.touch_inner_top_section .get_in_section {
+    background: none;
+    max-width: 860px;
+    margin: auto;
+}
+
+.touch_inner_top_section .get_in_section label span .label-icon {
+    display: inline-block;
+}
+
+.touch_inner_top_section .get_in_section .common-control textarea {
+    height: 130px;
+}
+
+.map_section {
+    background: #e6e6e6;
+    padding: 40px 0px;
+}
+
+.map_section iframe {
+    width: 100%;
 }
