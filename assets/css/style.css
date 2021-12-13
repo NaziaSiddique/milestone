@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap");
 
 *{
   padding: 0px;
@@ -11,7 +11,7 @@ html {
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -28,7 +28,7 @@ img {
 }
 
 p {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     font-style: normal;
@@ -38,7 +38,7 @@ p {
 }
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 35px;
     margin: 0px 0px 20px;
     line-height: normal;
@@ -47,7 +47,7 @@ h1 {
 }
 
 h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 26px;
     margin: 0px 0px 15px;
     font-weight: bold;
@@ -55,7 +55,7 @@ h2 {
 }
 
 h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     margin: 0 0 10px;
     font-size: 22px;
     line-height: 40px;
@@ -66,14 +66,14 @@ h3 {
 h4 {
     margin: 0 0 10px;
     font-size: 21px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     line-height: 30px;
     font-weight: 600;
     color: #181b31;
 }
 
 h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 19px;
     ;margin: 0px 0px 10px;
     font-weight: normal;
@@ -81,7 +81,7 @@ h5 {
 }
 
 h6 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-size: 18px;
     margin: 0px 0px 10px;
     font-weight: 400;
@@ -98,33 +98,34 @@ a {
     text-decoration: none !important;
 }
 
-.container{
+.container {
     width: 100%;
     max-width: 1180px;
     padding: 0px 15px;
     margin: 0px auto 0px; 
 }
+
 .container:after {
     clear: both;
     display: table;
     content: "";
 }
 
-.header_main .left_logo img {
+.header-main .left-logo img {
     width: auto;
     max-width: 210px;
 }
 
-.menu_area ul {
+.menu-area ul {
     margin: 0px;
 }
 
-.header_main .menu_area ul li {
+.header-main .menu-area ul li {
     display: inline-block;
     padding: 0px 27px;
 }
 
-.header_main .menu_area ul li a {
+.header-main .menu-area ul li a {
     padding: 0px 5px 4px;
     font-size: 13px;
     color: #ffffff;
@@ -140,15 +141,15 @@ a {
     transition: all 0.3s ease 0s;
 }
 
-.header_main .menu_area ul li.active a {
+.header-main .menu-area ul li.active a {
     border-bottom: 2px solid #fff;
 }
 
-.header_main .menu_area ul li a:hover {
+.header-main .menu-area ul li a:hover {
     border-bottom: 2px solid #fff;
 }
 
-.header_main {
+.header-main {
     width: 100%;
     display: inline-block;
     padding: 50px 0 10px;
@@ -161,7 +162,7 @@ a {
     transition: all .3s;
 }
 
-.header_main .fixed-header {
+.header-main .fixed-header {
     position: fixed;
     z-index: 99;
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
@@ -169,26 +170,27 @@ a {
     -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #111111;
     padding: 10px 0px;
+    background: black;
 }
 
-.header_main.fixed-header .outer_div {
+.header-main .fixed-header .outer-div {
     align-items: center;
     display: flex;
     justify-content: space-between;
 }
 
-.header_main .fixed-header .left_logo img {
+.header-main .fixed-header .left-logo img {
     width: auto;
     max-width: 158px;
 }
 
-.header_main .menu_area ul li .active .pull-right .btn_main {
+.header-main .menu-area ul li .active .pull-right .btn-main {
     padding: 7px 20px;
     background: #1d2860;
     color: #fff;
 }
 
-.btn_main {
+.btn-main {
     background: #fff0;
     padding: 7px 52px;
     display: inline-block;
@@ -200,7 +202,7 @@ a {
     border-radius: 11px;
 }
 
-.button_main {
+.button-main {
     color: #333;
     font-weight: normal;
     border-color: #333334;
@@ -208,17 +210,17 @@ a {
     line-height: normal;
 }
 
-.btn_main:hover {
+.btn-main:hover {
     color: #2B2B2B;
     background-color: #fff;
 }
 
-.header_main .menu_area ul li.active.pull-right .btn_main:hover{
+.header-main .menu-area ul li .active .pull-right .btn-main:hover{
     color: #1d2860;
     background: none;
 }
 
-.banner_section {
+.banner-section {
     overflow: hidden;
     padding: 195px 0px 70px;
     background: url(../images/banner_bg.jpg) center center no-repeat;
@@ -227,7 +229,8 @@ a {
     max-height: 100vh;
     position: relative;
 }
-.banner_section:before {
+
+.banner-section:before {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -238,38 +241,38 @@ a {
     background-image: linear-gradient(to right, rgba(0,0,0,.39), rgb(0,0,0,0));
 }
 
-.banner_section .left_content {
+.banner-section .left-content {
     max-width: 410px;
     position: relative;
 }
 
-.left_content {
+.left-content {
     bottom: -83px;
 }
 
-.banner_section .left_content h1 {
+.banner-section .left-content h1 {
     font-size: 40px;
     line-height: 48px;
     color: #ffffff;
     font-weight: 500;
 }
 
-.banner_section .left_content p {
+.banner-section .left-content p {
     margin-bottom: 24px;
     color: #fff;
     font-size: 11px;
     line-height: 19px;
 }
 
-.banner_section .left_content .btn_banner {
+.banner-section .left-content .btn-banner {
     text-align: center;
 }
 
-.about_section {
+.about-section {
     padding: 50px 0px;
 }
 
-.about_section .center_content {
+.about-section .center-content {
     max-width: 860px;
     text-align: center;
     margin: auto;
@@ -282,120 +285,122 @@ h2 .title {
     color: #000;
 }
 
-.about_section span {
+.about-section span {
     font-size: 17px;
     margin-bottom: 24px;
     display: block;
 }
 
-.about_section p {
+.about-section p {
     margin-bottom: 24px;
 }
 
-.about_section h5 {
+.about-section h5 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
 }
 
-.about_section .center_title {
+.about-section .center-title {
     margin-bottom: 30px;
 }
 
-.about_section .center_title h3 {
+.about-section .center-title h3 {
     font-size: 38px;
     font-weight: normal;
 }
 
-.about_section .img_part ul li {
+.about-section .img-part ul li {
     display: inline-block;
         padding: 0px 15px;
 }
 
-.about_section .img_part ul li img {
+.about-section .img-part ul li img {
     max-width: 100%;
     max-height: 130px;
     width: auto;
 }
 
-.service_section .top_title {
+.service-section .top-title {
     text-align: center;
 }
 
-.service_part ul {
+.service-part ul {
     margin: 0px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.service_part ul li {
+.service-part ul li {
     text-align: center;
     display: inline-block;
     margin: 10px 0px;
 }
 
-.service_part ul li img {
+.service-part ul li img {
     width: 105px;
     margin-bottom: 15px;
     max-width: 86%;
 }
-.service_part ul li h5 {
+
+.service-part ul li h5 {
     font-size: 14px;
     max-width: 167px;
     line-height: 21px;
     color: #000;
 }
 
-.service_part h6 {
+.service-part h6 {
     font-size: 14px;
     text-align: center;
     padding: 25px 0px;
 }
 
-.btn_service {
+.btn-service {
     text-align: center;
 }
 
-.business-values .center_content {
+.business-values .center-content {
     text-align: center;
     padding: 50px 0px 40px;
 }
 
-.values_section {
+.values-section {
     background: #111111;
     padding: 50px 0px;
 }
 
-.values_section .row {
+.values-section .row {
     align-items: center;
+    display: inline-flex;
 }
 
-.values_section p {
+.values-section p {
     color: #fff;
 }
 
-.values_section .content_part ul li {
+.values-section .content-part ul li {
     display: flex;
     padding: 15px 0px 0px;
 }
 
-.values_section .content_part ul li i {
+.values-section .content-part ul li i {
     color: #fff;
     margin-right: 9px;
     line-height: 19px;
     font-size: 21px;
 }
 
-.values_section .img_part {
+.values-section .img-part {
     position: relative;
 }
 
-.values_section .img_part img {
+.values-section .img-part img {
     width: 100%;
 }
 
-.values_section .img_part:before {
+.values-section .img-part:before {
     content: "";
     position: absolute;
     background: #fff;
@@ -405,7 +410,7 @@ h2 .title {
     right: -24px;
 }
 
-.values_section .img_part::after {
+.values-section .img-part::after {
     content: "";
     position: absolute;
     background: #fff;
@@ -415,31 +420,31 @@ h2 .title {
     right: -24px;
 }
 
-.single_btn_see {
+.single-btn-see {
     padding: 40px 0px;
 }
 
-.get_in_touch {
+.get-in-touch {
     padding: 30px 0px 0px;
 }
 
-.get_in_touch .title {
+.get-in-touch .title {
     text-align: center;
 }
 
-.get_in_section {
+.get-in-section {
     background: #e6e6e6;
     padding: 40px 0px;
 }
 
-.get_in_section .common-control label {
+.get-in-section .common-control label {
     display: block;
     margin: 0px;
     font-size: 14px;
     padding-bottom: 2px;
 }
 
-.get_in_section .common-control input {
+.get-in-section .common-control input {
     width: 100%;
     height: 41px;
     border: 1px solid #ccc;
@@ -448,11 +453,11 @@ h2 .title {
     padding: 10px;
 }
 
-.get_in_section .common-control {
+.get-in-section .common-control {
     padding-bottom: 20px;
 }
 
-.get_in_section .common-control textarea {
+.get-in-section .common-control textarea {
     width: 100%;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -461,19 +466,19 @@ h2 .title {
     height: 210px;
 }
 
-.get_in_section .common-control label span.label-icon {
+.get-in-section .common-control label span .label-icon {
     color: #ff0000;
 }
 
-.get_in_section .btn_touch {
+.get-in-section .btn-touch {
     text-align: center;
 }
 
-.footer_center_logo {
+.footer-center-logo {
     padding: 40px 0px;
 }
 
-.footer_center_logo img {
+.footer-center-logo img {
     width: auto;
     max-width: 250px;
     text-align: center;
@@ -481,52 +486,48 @@ h2 .title {
     display: block;
 }
 
-.footer_section {
+.footer-section {
     background: #111111;
     padding: 50px 0px;
 }
 
-.footer_section .center_menu {
+.footer-section .center-menu {
     text-align: center;
 }
 
-.footer_section .center_menu .icon_part {
+.footer-section .center-menu .icon-part {
     padding-bottom: 30px;
 }
 
-.footer_section .center_menu .icon_part {
-    padding-bottom: 30px;
-}
-
-.footer_section .center_menu .icon_part i {
+.footer-section .center-menu .icon-part i {
     font-size: 32px;
     color: #fff;
     display: inline-block;
     margin-right: 10px;
 }
 
-.footer_section .center_menu .icon_part a {
+.footer-section .center-menu .icon-part a {
     font-size: 19px;
     color: #fff;
 }
 
-.footer_section .center_menu .icon_part p {
+.footer-section .center-menu .icon-part p {
     font-size: 19px;
     color: #fff;
     margin: 0px;
     display: inline-block;
 }
 
-.footer_menu ul {
+.footer-menu ul {
     margin: 0px;
 }
 
-.footer_menu ul li {
+.footer-menu ul li {
     display: inline-block;
     padding: 8px 20px;
 }
 
-.footer_menu ul li a {
+.footer-menu ul li a {
     font-size: 13px;
     color: #ffffff;
     font-weight: 700;
@@ -539,7 +540,8 @@ h2 .title {
     -o-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
 }
-.footer_menu ul li:before {
+
+.footer-menu ul li:before {
     width: 4px;
     height: 2px;
     position: absolute;
@@ -548,13 +550,16 @@ h2 .title {
     top: 17px;
     right: 0;
 }
+
 .footer-socials ul {
     margin: 30px 0px;
 }
+
 .footer-socials ul li {
     display: inline-block;
     padding: 0px 5px;
 }
+
 .footer-socials ul li a {
     width: 44px;
     height: 44px;
@@ -566,7 +571,7 @@ h2 .title {
     color: #000;
 }
 
-.breadcrumb_section {
+.breadcrumb-section {
     overflow: hidden;
     padding: 195px 0px 70px;
     background-size: cover;
@@ -574,13 +579,15 @@ h2 .title {
     max-height: 100vh;
     position: relative;
 }
-.breadcrumb_section h1 {
+
+.breadcrumb-section h1 {
     font-size: 40px;
     line-height: 48px;
     color: #ffffff;
     font-weight: 500;
 }
-.breadcrumb_section:before {
+
+.breadcrumb-section:before {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -590,7 +597,8 @@ h2 .title {
     content: "";
     background-image: linear-gradient(to right, rgba(0,0,0,.39), rgb(0,0,0,0));
 }
-.breadcrumb_section .left_content {
+
+.breadcrumb-section .left-content {
     max-width: 410px;
     position: relative;
 }
@@ -599,12 +607,12 @@ h2 .title {
     background: url(../images/about_us.jpg) center center no-repeat;
 }
 
-.about_main_section {
+.about-main-section {
     text-align: center;
     padding: 50px 0px;
 }
 
-.main_hedding_section {
+.main-heading-section {
     font-size: 30px;
     line-height: 1.3;
     text-align: center;
@@ -613,7 +621,7 @@ h2 .title {
     width: 100%;
 }
 
-.about_main_section p {
+.about-main-section p {
     max-width: 860px;
     margin: auto;
     line-height: 30px;
@@ -639,11 +647,11 @@ h2 .title {
     line-height: 30px;
 }
 
-.service_images_section {
+.service-images-section {
     margin:50px auto;
 }
 
-.service_images_section img {
+.service-images-section img {
     height: auto;
     max-width: 100%;
     max-height: 130px;
@@ -655,42 +663,42 @@ h2 .title {
     background: url(../images/contact-us.jpg) center center no-repeat;
 }
 
-.touch_inner_top_section {
+.touch-inner-top-section {
     padding: 40px 0px;
 }
 
-.touch_inner_top_section h2 .title {
+.touch-inner-top-section h2 .title {
     text-align: center;
 }
 
-.touch_inner_top_section span {
+.touch-inner-top-section span {
     text-align: center;
     display: block;
 }
 
-.touch_inner_top_section span a {
+.touch-inner-top-section span a {
     color: #000;
 }
 
-.touch_inner_top_section .get_in_section {
+.touch-inner-top-section .get-in-section {
     background: none;
     max-width: 860px;
     margin: auto;
 }
 
-.touch_inner_top_section .get_in_section label span .label-icon {
+.touch-inner-top-section .get-in-section label span .label-icon {
     display: inline-block;
 }
 
-.touch_inner_top_section .get_in_section .common-control textarea {
+.touch-inner-top-section .get-in-section .common-control textarea {
     height: 130px;
 }
 
-.map_section {
+.map-section {
     background: #e6e6e6;
     padding: 40px 0px;
 }
 
-.map_section iframe {
+.map-section iframe {
     width: 100%;
 }
