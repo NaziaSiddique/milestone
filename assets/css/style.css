@@ -142,7 +142,7 @@ a {
 }
 
 .header-main .menu-area ul li a:active {
-    border-bottom: 2px solid #fff;
+    border-bottom: 2px solid #fff !important;
 }
 
 .header-main .menu-area ul li a:hover {
