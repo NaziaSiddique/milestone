@@ -12,11 +12,11 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
     color: #000;
-    line-height: 1.5rem;
+    line-height: 1.5;
     overflow-x: hidden;
 }
 
@@ -29,8 +29,8 @@ img {
 
 p {
     font-family: "Montserrat", sans-serif;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    font-size: 16px;
+    line-height: 1.5;
     font-style: normal;
     font-weight: normal;
     color: #000;
@@ -39,7 +39,7 @@ p {
 
 h1 {
     font-family: "Montserrat", sans-serif;
-    font-size: 2.1875rem;
+    font-size: 35px;
     margin: 0px 0px 20px;
     line-height: normal;
     font-weight: bold;
@@ -48,7 +48,7 @@ h1 {
 
 h2 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.625rem;
+    font-size: 26px;
     margin: 0px 0px 15px;
     font-weight: bold;
     font-style: normal;
@@ -57,32 +57,32 @@ h2 {
 h3 {
     font-family: "Montserrat", sans-serif;
     margin: 0 0 10px;
-    font-size: 1.375rem;
-    line-height: 2.5rem;
+    font-size: 22px;
+    line-height: 40px;
     font-weight: 600;
     color: #181b31;
 }
 
 h4 {
     margin: 0 0 10px;
-    font-size: 1.3125rem;
+    font-size: 21px;
     font-family: "Montserrat", sans-serif;
-    line-height: 1.875rem;
+    line-height: 30px;
     font-weight: 600;
     color: #181b31;
 }
 
 h5 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.1875rem;
-    margin: 0px 0px 10px;
+    font-size: 19px;
+    ;margin: 0px 0px 10px;
     font-weight: normal;
     font-style: normal;
 }
 
 h6 {
     font-family: "Montserrat", sans-serif;
-    font-size: 1.125rem;
+    font-size: 18px;
     margin: 0px 0px 10px;
     font-weight: 400;
     letter-spacing: 0px;
@@ -111,11 +111,6 @@ a {
     content: "";
 }
 
-.header-main .left-logo img {
-    width: auto;
-    max-width: 158px;
-}
-
 .menu-area ul {
     margin: 0px;
 }
@@ -127,10 +122,10 @@ a {
 
 .header-main .menu-area ul li a {
     padding: 0px 5px 4px;
-    font-size: 0.8125rem;
+    font-size: 13px;
     color: #ffffff;
     font-weight: 700;
-    line-height: 1.25rem;
+    line-height: 20px;
     display: block;
     text-transform: uppercase;
     border-bottom: 2px solid transparent;
@@ -141,8 +136,8 @@ a {
     transition: all 0.3s ease 0s;
 }
 
-.header-main .menu-area ul li a:active {
-    border-bottom: 2px solid #fff !important;
+.header-main .menu-area ul li.active a {
+    border-bottom: 2px solid #fff;
 }
 
 .header-main .menu-area ul li a:hover {
@@ -160,10 +155,9 @@ a {
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     transition: all .3s;
-    background: black;
 }
 
-.fixed-header {
+.header-main .fixed-header {
     position: fixed;
     z-index: 99;
     box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
@@ -171,10 +165,7 @@ a {
     -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
     background-color: #111111;
     padding: 10px 0px;
-}
-
-.fixed-header .menu-area {
-    padding-top: 25px;
+    background: black;
 }
 
 .header-main .fixed-header .outer-div {
@@ -200,7 +191,7 @@ a {
     display: inline-block;
     color: #fff;
     transition: .4s ease;
-    font-size: 0.875rem;
+    font-size: 14px;
     font-weight: bold;
     border: 1px solid #ffffff;
     border-radius: 11px;
@@ -223,7 +214,9 @@ a {
     color: #1d2860;
     background: none;
 }
-
+.header-main .mobile_toggle {
+    display: none;
+}
 .banner-section {
     overflow: hidden;
     padding: 195px 0px 70px;
@@ -255,8 +248,8 @@ a {
 }
 
 .banner-section .left-content h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 40px;
+    line-height: 48px;
     color: #ffffff;
     font-weight: 500;
 }
@@ -264,8 +257,8 @@ a {
 .banner-section .left-content p {
     margin-bottom: 24px;
     color: #fff;
-    font-size: 0.8675rem;
-    line-height: 1.1875rem;
+    font-size: 11px;
+    line-height: 19px;
 }
 
 .banner-section .left-content .btn-banner {
@@ -283,14 +276,14 @@ a {
 }
 
 h2 .title {
-    font-size: 1.875rem;
+    font-size: 30px;
     font-weight: normal;
     margin-bottom: 20px;
     color: #000;
 }
 
 .about-section span {
-    font-size: 1.0625rem;
+    font-size: 17px;
     margin-bottom: 24px;
     display: block;
 }
@@ -300,7 +293,7 @@ h2 .title {
 }
 
 .about-section h5 {
-    font-size: 1.125rem;
+    font-size: 18px;
     font-weight: 500;
     margin-bottom: 30px;
 }
@@ -310,7 +303,7 @@ h2 .title {
 }
 
 .about-section .center-title h3 {
-    font-size: 2.375rem;
+    font-size: 38px;
     font-weight: normal;
 }
 
@@ -349,22 +342,14 @@ h2 .title {
 }
 
 .service-part ul li h5 {
-    font-size: 0.875rem;
+    font-size: 14px;
     max-width: 167px;
-    line-height: 1.3125rem;
+    line-height: 21px;
     color: #000;
-}
-
-.service-part ul li span {
-    font-size: 0.875rem;
-    max-width: 167px;
-    line-height: 1.3125rem;
-    color: #000;
-    display: block;
 }
 
 .service-part h6 {
-    font-size: 0.875rem;
+    font-size: 14px;
     text-align: center;
     padding: 25px 0px;
 }
@@ -400,8 +385,8 @@ h2 .title {
 .values-section .content-part ul li i {
     color: #fff;
     margin-right: 9px;
-    line-height: 1.1875rem;
-    font-size: 1.3125rem;
+    line-height: 19px;
+    font-size: 21px;
 }
 
 .values-section .img-part {
@@ -449,44 +434,12 @@ h2 .title {
     padding: 40px 0px;
 }
 
-.get-in-section .form-group {
-    margin-bottom: 20px;
-}
-
-.get-in-section .form-group label {
-    width: 100%;
-    display: block;
-}
-
 .get-in-section .common-control label {
     display: block;
     margin: 0px;
-    font-size: 0.875rem;
+    font-size: 14px;
     padding-bottom: 2px;
 }
-
-.get-in-section .common-control label span .label-icon {
-    color: #ff0000;
-    display: inline-block;
-}
-
-.touch-inner-top-section h2 .title {
-    text-align: center;
-    font-size: 1.875rem;
-    font-weight: normal;
-    margin-bottom: 20px;
-    color: #000;
-}
-
-.get-in-section .common-control input {
-    width: 100%;
-    height: 20px;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    outline: none;
-    padding: 10px;
-}
-
 .get-in-section .common-control {
     padding-bottom: 20px;
 }
@@ -525,31 +478,6 @@ h2 .title {
     padding: 50px 0px;
 }
 
-.footer-center-logo {
-    padding: 40px 0px;
-}
-
-.footer-center-logo img {
-    width: auto;
-    max-width: 250px;
-    text-align: center;
-    margin: auto;
-    display: block;
-}
-
-.footer-section p {
-    color: #fff !important;
-}
-
-.form-group span.label-icon {
-    color: #ff0000;
-    display: inline-block;
-}
-
-.footer-section i .fa.fa-map-marker {
-    color: #fff !important;
-}
-
 .footer-section .center-menu {
     text-align: center;
 }
@@ -559,19 +487,19 @@ h2 .title {
 }
 
 .footer-section .center-menu .icon-part i {
-    font-size: 2rem;
+    font-size: 32px;
     color: #fff;
     display: inline-block;
     margin-right: 10px;
 }
 
 .footer-section .center-menu .icon-part a {
-    font-size: 1.1875rem;
+    font-size: 19px;
     color: #fff;
 }
 
 .footer-section .center-menu .icon-part p {
-    font-size: 1.1875rem;
+    font-size: 19px;
     color: #fff;
     margin: 0px;
     display: inline-block;
@@ -587,10 +515,10 @@ h2 .title {
 }
 
 .footer-menu ul li a {
-    font-size: 0.8125rem;
+    font-size: 13px;
     color: #ffffff;
     font-weight: 700;
-    line-height: 1.25rem;
+    line-height: 20px;
     display: block;
     text-transform: uppercase;
     -webkit-transition: all 0.3s ease 0s;
@@ -625,8 +553,8 @@ h2 .title {
     background: #fff;
     display: block;
     text-align: center;
-    line-height: 2.75rem;
-    font-size: 2rem;
+    line-height: 44px;
+    font-size: 32px;
     color: #000;
 }
 
@@ -640,8 +568,8 @@ h2 .title {
 }
 
 .breadcrumb-section h1 {
-    font-size: 2.5rem;
-    line-height: 3rem;
+    font-size: 40px;
+    line-height: 48px;
     color: #ffffff;
     font-weight: 500;
 }
@@ -662,21 +590,14 @@ h2 .title {
     position: relative;
 }
 
-.about-us-inner {
-    background: url(../images/about_us.jpg) center center no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 .about-main-section {
     text-align: center;
     padding: 50px 0px;
 }
 
 .main-heading-section {
-    font-size: 1.875rem;
-    line-height: 1.3rem;
+    font-size: 30px;
+    line-height: 1.3;
     text-align: center;
     font-weight: 400;
     display: block;
@@ -686,14 +607,7 @@ h2 .title {
 .about-main-section p {
     max-width: 860px;
     margin: auto;
-    line-height: 1.875rem;
-}
-
-.about-us-inner {
-    background: url(../images/about_us.jpg) center center no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    line-height: 30px;
 }
 
 .service-inner {
@@ -712,15 +626,12 @@ h2 .title {
 
 .service ul {
     padding: 0px;
-    line-height: 1.875rem;
-}
-
-.service ul li {
     list-style: square;
+    line-height: 30px;
 }
 
 .service-images-section {
-    margin: 50px auto;
+    margin:50px auto;
 }
 
 .service-images-section img {
@@ -739,12 +650,8 @@ h2 .title {
     padding: 40px 0px;
 }
 
-.touch-inner-top-section .container .title {
+.touch-inner-top-section h2 .title {
     text-align: center;
-    font-size: 1.875rem;
-    font-weight: normal;
-    margin-bottom: 20px;
-    color: #000;
 }
 
 .touch-inner-top-section span {
@@ -770,6 +677,61 @@ h2 .title {
     height: 130px;
 }
 
+
+.map-section iframe {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/*header*/
+.header-main .left-logo img {
+    width: auto;
+    max-width: 158px;
+}
+.fixed-header {
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    -webkit-box-shadow: 0 0 8px 0 rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+    background-color: #111111;
+    padding: 10px 0px;
+}
+.fixed-header .menu-area {
+    padding-top: 25px;
+}
+
+.touch-inner-top-section h2.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #000;
+}
+.header-main .menu-area ul li a.active {
+    border-bottom: 2px solid #fff;
+}
+/*about*/
+.about-us-inner {
+    background: url(../images/about_us.jpg) center center no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*footer*/
+.get-in-section .form-group {
+    margin-bottom: 20px;
+}
+.get-in-section .form-group label {
+    width: 100%;
+    display: block;
+}
 .get-in-section .form-group .form-control {
     width: 100%;
     height: 40px;
@@ -777,36 +739,63 @@ h2 .title {
     border-radius: 8px;
     outline: none;
     padding: 0px 0px 0px 15px;
-    color: #CCC;
 }
 
+.footer_center_logo {
+    padding: 40px 0px;
+}
+.footer_center_logo img {
+    width: auto;
+    max-width: 250px;
+    text-align: center;
+    margin: auto;
+    display: block;
+}
+.footer-section p {
+    color: #fff !important;
+}
+.form-group span.label-icon {
+    color: #ff0000;
+    display: inline-block;
+}
+.footer-section i.fa.fa-map-marker {
+    color: #fff !important;
+}
 .get-in-section .common-control label span.label-icon {
     color: #ff0000;
     display: inline-block;
 }
-
 .get-in-section .common-control input {
     width: 100%;
-    height: 20px;
+    height: 40px;
     border: 1px solid #ccc;
     border-radius: 8px;
     outline: none;
     padding: 10px;
 }
-
 .map-section {
     background:none;
     padding: 0px 0px;
 }
-
 .map-section .container{
-    width: 100%;
-    max-width: 100%;
-    padding: 0px 0px !important;
-    margin: 0px auto 0px; 
+        width: 100%;
+        max-width: 100%;
+        padding: 0px 0px !important;
+        margin: 0px auto 0px; 
     
 }
-
-.map-section iframe {
-    width: 100%;
+.header-main .menu-area .header_social_link ul li a {
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    color: #000;
+    text-align: center;
+    line-height: 14px;
+    display: inline-block;
+    float: left;
+    margin: 0px 10px 0px 0px;
+}
+.header_social_link {
+    display: none;
+    padding: 10px 16px;
 }
