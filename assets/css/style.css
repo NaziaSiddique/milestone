@@ -333,6 +333,7 @@ h2 .title {
     text-align: center;
     display: inline-block;
     margin: 10px 0px;
+    list-style: square;
 }
 
 .service-part ul li img {
@@ -683,7 +684,13 @@ h2 .title {
 }
 
 
-
+.service-part ul li span {
+    display: block;
+    font-size: 14px;
+    max-width: 167px;
+    line-height: 21px;
+    color: #000;
+}
 
 
 
@@ -799,3 +806,6 @@ h2 .title {
     display: none;
     padding: 10px 16px;
 }
+section.service ul li {    
+    list-style: unset;
+  }
